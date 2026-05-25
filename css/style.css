@@ -1,3 +1,12 @@
+/*
+AF - Avaliacao Final - Linguagens de Programacao
+Tema do Projeto: Universo Gourmet
+Aluno 1: Ana Julia Berzin - RA: 251494
+Aluno 2: Eros Henrique Ferreira Vasconcelos - RA: 250940
+Professor: Abimael de Oliveira
+Data de entrega: 07/06
+*/
+
 :root {
 	--fonte-principal: "Poppins", sans-serif;
 
@@ -343,6 +352,24 @@ body {
 	width: 100%;
 }
 
+.redes-sociais-contato {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.6rem;
+	color: var(--cor-texto-suave);
+}
+
+.link-rede-social {
+	color: var(--cor-destaque);
+	font-weight: 500;
+	transition: color 0.3s ease;
+}
+
+.link-rede-social:hover {
+	color: var(--cor-primaria);
+}
+
 .contato-secao .btn-outline-secondary {
 	border-color: var(--cor-botao-secundario-borda);
 	color: var(--cor-texto);
@@ -459,6 +486,10 @@ footer {
 
 	.contato-secao .d-flex.flex-wrap.gap-2.justify-content-start .btn {
 		width: auto;
+	}
+
+	.redes-sociais-contato {
+		gap: 0.9rem;
 	}
 
 	.footer-conteudo {
