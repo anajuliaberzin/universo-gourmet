@@ -571,27 +571,25 @@ footer {
 	}
 }
 
-.categoria {
-    display: inline-block;
-    padding: 8px 18px;
-    margin: 5px;
-    border-radius: 20px;
-    background-color: #fff;
-    border: 2px solid #ff8c42;
-    color: #ff8c42;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
+.apresentacao{
+    padding: 60px 20px;
 }
 
-.categoria:hover {
-    background-color: #ff8c42;
-    color: #fff;
-    transform: scale(1.05);
+.apresentacao h2{
+    color: #8b0000;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.apresentacao p{
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.2rem;
+    color: #555;
 }
 
 .secao {
-    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .secao-titulo {
@@ -600,79 +598,78 @@ footer {
 }
 
 .secao-titulo h2 {
-    color: #ff8c42;
-    font-size: 2rem;
-    margin-bottom: 10px;
+    color: #8b0000;
+    font-size: 2.2rem;
+    font-weight: bold;
 }
 
-.rotulo {
-    color: #777;
-    font-size: 0.95rem;
+.secao-titulo p {
+    color: #666;
 }
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
 }
 
 .card {
     background-color: #fff;
-    border-radius: 15px;
-    padding: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    transition: 0.3s ease;
+    border-radius: 12px;
     overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
 }
 
 .card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
+
+.card figure {
+    margin: 0;
 }
 
 .card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
-    border-radius: 10px;
-    transition: transform 0.4s ease;
-}
-
-.card:hover img {
-    transform: scale(1.05);
 }
 
 .card figcaption {
+    text-align: center;
     font-weight: bold;
-    margin-top: 10px;
-    color: #ff8c42;
-    font-size: 1.1rem;
+    padding: 10px;
+    background-color: #fff3e6;
+    color: #8b0000;
 }
 
 .card p {
-    margin-top: 8px;
-    font-size: 0.95rem;
-    line-height: 1.4;
+    padding: 15px;
+    font-size: 0.9rem;
     color: #555;
 }
 
 .categoria {
-  background-color: #fff3e0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  margin: 5px;
-  display: inline-block;
-  font-weight: bold;
-  color: #d35400;
-  transition: 0.3s;
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: #fff3e6;
+    color: #8b0000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .categoria:hover {
-  background-color: #d35400;
-  color: white;
-  cursor: pointer;  
+    background-color: #8b0000;
+    color: white;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
 .carousel {
     margin-top: 20px;
     border-radius: 15px;
